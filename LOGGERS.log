@@ -1,0 +1,141 @@
+22:55:40.463 [main] INFO  com.skillassure.training.tests.ArrivalCalendarSelect - entering as admin
+23:17:36.007 [main] INFO  com.skillassure.training.tests.ArrivalCalendarSelect - entering as admin
+23:21:44.664 [main] INFO  com.skillassure.training.tests.ArrivalCalendarSelect - entering as admin
+23:22:09.310 [main] INFO  com.skillassure.training.tests.ArrivalCalendarSelect - entering as admin
+23:24:15.302 [main] INFO  com.skillassure.training.tests.ArrivalCalendarSelect - entering as admin
+10:27:32.134 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+10:33:06.307 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+10:35:39.681 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+10:39:44.163 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+10:39:48.849 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+10:40:45.429 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+10:40:49.525 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+10:41:04.196 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+10:41:05.215 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+10:41:57.968 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:42:26.647 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:42:55.122 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:44:16.755 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:45:55.320 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:45:55.339 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+10:46:00.957 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+10:47:29.705 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:47:29.711 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+10:47:34.559 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+10:47:43.526 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+10:47:44.412 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+10:49:10.281 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:49:10.293 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+10:49:14.649 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+10:49:27.430 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+10:49:29.603 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+10:49:31.133 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+10:52:08.934 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:52:08.940 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+10:52:12.764 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+10:52:27.481 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+10:52:28.317 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+10:52:29.591 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+10:53:57.369 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:53:57.372 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+10:54:01.984 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+10:54:08.375 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+10:54:09.247 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+10:54:09.684 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+10:54:09.822 [main] INFO  com.skillassure.training.tests.Route - selecting the route
+10:54:10.368 [main] INFO  com.skillassure.training.tests.Route - closing the webpage
+10:56:01.479 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+10:56:01.485 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+10:56:05.419 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+10:56:21.890 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+10:56:23.372 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+10:56:25.010 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+10:57:56.921 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+10:58:00.530 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+10:58:08.481 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+10:58:09.455 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+10:59:15.932 [main] INFO  com.skillassure.training.tests.DepatureCalendarClick - entering as admin
+10:59:15.954 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+10:59:20.420 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+10:59:32.487 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+10:59:33.810 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:00:40.880 [main] INFO  com.skillassure.training.tests.DepatureCalendarClick - entering as admin
+11:00:40.919 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:00:46.195 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:00:54.763 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:00:55.857 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:05:19.740 [main] INFO  com.skillassure.training.tests.DepatureCalendarClick - entering as admin
+11:05:19.776 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:05:24.378 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:05:45.957 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:05:48.940 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:07:18.060 [main] INFO  com.skillassure.training.tests.DepatureCalendarClick - entering as admin
+11:07:18.074 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:07:22.050 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:07:37.158 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:07:38.094 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:11:16.722 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:11:20.246 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:11:36.315 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:11:39.840 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:14:11.616 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:14:17.073 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:14:42.932 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:14:47.473 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:16:06.140 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:16:10.506 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:16:25.601 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:16:26.592 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:18:00.785 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:18:04.461 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:18:28.007 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:18:29.129 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:19:27.030 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:19:30.935 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:19:47.063 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:19:49.368 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:22:34.071 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:22:37.794 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:23:14.314 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:23:17.289 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+11:24:06.041 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - entering as admin
+11:24:57.798 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - entering as admin
+11:25:22.808 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Clicking on the departure time
+11:25:34.491 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Clicking on the departure time
+11:26:31.752 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Clicking on the departure time
+11:26:31.766 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+11:26:35.248 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+11:26:45.479 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+11:26:48.357 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+13:14:56.650 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+13:14:56.682 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+13:15:02.065 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+13:15:11.202 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+13:15:12.203 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+13:15:12.795 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+13:23:42.630 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+13:23:42.637 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+13:23:49.232 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+13:23:59.264 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+13:24:00.401 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+13:24:02.338 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+13:36:49.668 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+13:36:49.684 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+13:36:56.310 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+13:37:05.321 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+13:37:06.228 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+13:37:08.437 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+13:37:28.752 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+13:37:32.886 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+13:37:41.154 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+13:37:42.182 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+13:43:11.808 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+13:43:11.814 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+13:43:18.518 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+13:43:32.225 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+13:43:33.166 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+13:43:34.828 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+13:44:02.009 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+13:44:07.703 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+13:44:16.716 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+13:44:19.427 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
