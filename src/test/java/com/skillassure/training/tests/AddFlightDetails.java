@@ -1,21 +1,17 @@
 package com.skillassure.training.tests;
 
-import org.junit.BeforeClass;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-//import org.apache.logging.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
-//import org.junit.AfterClass;
-//import org.junit.BeforeClass;
-//import org.openqa.selenium.By;
-//import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.support.ui.Select;
-//
+
+
 import org.testng.annotations.Test;
 //
 //import com.relevantcodes.extentreports.ExtentReports;
@@ -24,25 +20,19 @@ import org.testng.annotations.Test;
 
 
 public class AddFlightDetails {
-//	static ExtentTest test;
-//	static ExtentReports report;
-//	@BeforeClass
-//	public static void startTest()
-//	{
-//	report = new ExtentReports(System.getProperty("user.dir")+"\\ExtentReportResults.html");
-//	test = report.startTest("ExtentDemo");
-//	}
-//	
-//	 private static Logger Log = LogManager.getLogger(AddFlightDetails.class.getName());
+	
+	private static Logger Log = LogManager.getLogger(AddFlightDetails.class.getName());
 	WebDriver driver;
+	
+	
 	@Test
-	public void scheduleFlight() throws Exception  {
+	public void scheduleFlight() {
 		
 		// Admin sign in
-		//Log.info("entering as admin");
+		Log.info("entering as admin");
 		
 		// getting into schedule flight page
-		//Log.info("Selecting the flight from dropdown");
+		Log.info("Selecting the flight from dropdown");
 		System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
 		driver=new ChromeDriver();
 
@@ -59,7 +49,7 @@ public class AddFlightDetails {
 		//By index
 		flight.selectByIndex(2);
 		//choosing the route
-		//Log.info("selecting the route");
+		Log.info("selecting the route");
 		WebElement route = driver.findElement(By.xpath("//*[@id=\"route\"]"));
 		route.click();
 		route.sendKeys("Surat(Gujarat) - bangaluru(Karnataka)");
@@ -76,7 +66,7 @@ public class AddFlightDetails {
 		date.click();
 		
 		//departure time
-		//Log.info("selecting the departure time");
+		Log.info("selecting the departure time");
 		WebElement dptTime=driver.findElement(By.id("departureTime"));
 		dptTime.click();
 		
@@ -90,28 +80,28 @@ public class AddFlightDetails {
 		driver.findElement(By.xpath("//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[3]/td[4]/a")).click();
 		
 		//Arrival Time
-		//Log.info("selecting the arrival time");
+		Log.info("selecting the arrival time");
 		WebElement dptTime_=driver.findElement(By.id("arrivalTime"));
 		dptTime_.click();
 		
 		driver.findElement(By.xpath("//*[@id=\"arrivalTime\"]/option[3]")).click();
 		
 		//Cost of economy 
-		//Log.info("adding the cost of economy");
+		Log.info("adding the cost of economy");
 		driver.findElement(By.id("classEconomy")).sendKeys("8454");
 		
-		//Log.info("finally adding the flight");
+		Log.info("finally adding the flight");
 		driver.findElement(By.partialLinkText("Add")).click();
 		
 		
-		Thread.sleep(3000);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		//data.driver.close();
 	}
 	
-//	@AfterClass
-//	public static void endTest()
-//	{
-//	report.endTest(test);
-//	report.flush();
-//	}
+
 }

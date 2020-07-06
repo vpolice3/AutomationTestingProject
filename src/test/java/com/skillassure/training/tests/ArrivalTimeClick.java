@@ -13,11 +13,14 @@ import org.testng.annotations.Test;
 
 public class ArrivalTimeClick {
 	WebDriver driver;
+	private static Logger Log = LogManager.getLogger(ArrivalTimeClick.class.getName());
 	@Test
 	public void ArrivalTimeClick_() {
+		Log.info("Entering into application");
 		System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
+		Log.info("Opening chrome driver");
 		driver=new ChromeDriver();
-
+		Log.info("Opening an application");
 		driver.get("http://43.254.161.195:8085/happytripcrclean1");
 		driver.findElement(By.partialLinkText("in as")).click();
 		driver.findElement(By.id("username")).sendKeys("admin@mindtree.com");

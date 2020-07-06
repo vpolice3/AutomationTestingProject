@@ -11,9 +11,13 @@ import org.testng.annotations.Test;
 
 public class DepartureTimeClick {
 	WebDriver driver;
+	private static Logger Log = LogManager.getLogger(DepartureTimeClick.class.getName());
 	 @Test
 	 public void departuretime() {
-		 System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
+		 Log.info("Entering into application");
+		
+		System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
+		Log.info("Intializing chrome driver");
 		driver=new ChromeDriver();
 		
 		driver.get("http://43.254.161.195:8085/happytripcrclean1");
@@ -21,7 +25,8 @@ public class DepartureTimeClick {
 		driver.findElement(By.id("username")).sendKeys("admin@mindtree.com");
 		driver.findElement(By.id("password")).sendKeys("admin");
 		driver.findElement(By.id("signInButton")).click();
-		driver.findElement(By.partialLinkText("Schedule Flight")).click();
+		WebElement sc=driver.findElement(By.xpath("//*[@id=\"MainTabs\"]/li[5]/a"));
+		sc.click();
 		WebElement dt=driver.findElement(By.id("departureTime"));
 		dt.click();
 		dt.sendKeys("20.00");

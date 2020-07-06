@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Main Test Suite" verbose="5">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
 <listeners>
 	<listener class-name="com.training.happytrip.extentreport.ExtentReport" />
 </listeners>
-<parameter name="OS" value="Windows"/>
-<parameter name="browser" value="Chrome"/>
-
-  <test name="Extent Report Test">
-   <classes>
-     <class name="com.extentreport.BasicExtentReport"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.skillassure.training.tests.DepartureCalendarClick"/>
+      <class name="com.skillassure.training.tests.ArrivalCalendarClick"/>
+      <class name="com.skillassure.training.tests.ScheduleFlight"/>
+      <class name="com.skillassure.training.tests.CostOfClass"/>
+      <class name="com.skillassure.training.tests.ChooseFlight"/>
+      <class name="com.skillassure.training.tests.AddFlightDetails"/>
+      <class name="com.skillassure.training.tests.ArrivalTimeClick"/>
+      <class name="com.skillassure.training.tests.Route"/>
+      <class name="com.skillassure.training.tests.Data"/>
+      <class name="com.skillassure.training.tests.DepartureCalendarSelect"/>
+      <class name="com.skillassure.training.tests.DepartureTimeClick"/>
     </classes>
-  </test>
-</suite>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

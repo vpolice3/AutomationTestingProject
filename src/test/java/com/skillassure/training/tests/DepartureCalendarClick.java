@@ -1,4 +1,5 @@
 package com.skillassure.training.tests;
+import org.apache.commons.math3.analysis.function.Log;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -13,10 +14,12 @@ import org.testng.annotations.Test;
 
 public class DepartureCalendarClick{
 	WebDriver driver;
+	private static Logger Log = LogManager.getLogger(DepartureCalendarClick.class.getName());
 	@Test
 	public void departureCalendarClick_() {
-		
+		 Log.info("Entering into application");
 		System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
+		Log.info("Opening chrome driver");
 		driver=new ChromeDriver();
 
 		driver.get("http://43.254.161.195:8085/happytripcrclean1");

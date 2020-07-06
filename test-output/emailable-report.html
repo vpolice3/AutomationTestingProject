@@ -8,11 +8,50 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,994</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">10</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">198,619</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.skillassure.training.tests.AddFlightDetails</td><td><a href="#m0">scheduleFlight</a></td><td rowspan="1">1593979089272</td><td rowspan="1">17947</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.skillassure.training.tests.Data</td><td><a href="#m0">login</a></td><td rowspan="1">1594067139172</td><td rowspan="1">3</td></tr><tr class="failedodd"><td rowspan="1">com.skillassure.training.tests.DepartureCalendarSelect</td><td><a href="#m1">depatureCalendarClick_</a></td><td rowspan="1">1594067139177</td><td rowspan="1">19658</td></tr><tr class="failedeven"><td rowspan="1">com.skillassure.training.tests.Route</td><td><a href="#m2">login</a></td><td rowspan="1">1594067121250</td><td rowspan="1">1</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.skillassure.training.tests.AddFlightDetails</td><td><a href="#m3">scheduleFlight</a></td><td rowspan="1">1594067088129</td><td rowspan="1">15989</td></tr><tr class="passedodd"><td rowspan="1">com.skillassure.training.tests.ArrivalCalendarClick</td><td><a href="#m4">ArrivalCalendarClick_</a></td><td rowspan="1">1594066996954</td><td rowspan="1">27340</td></tr><tr class="passedeven"><td rowspan="1">com.skillassure.training.tests.ArrivalTimeClick</td><td><a href="#m5">ArrivalTimeClick_</a></td><td rowspan="1">1594067104124</td><td rowspan="1">17049</td></tr><tr class="passedodd"><td rowspan="1">com.skillassure.training.tests.ChooseFlight</td><td><a href="#m6">scheduleFlight</a></td><td rowspan="1">1594067077178</td><td rowspan="1">10946</td></tr><tr class="passedeven"><td rowspan="1">com.skillassure.training.tests.CostOfClass</td><td><a href="#m7">scheduleFlight</a></td><td rowspan="1">1594067057460</td><td rowspan="1">19715</td></tr><tr class="passedodd"><td rowspan="1">com.skillassure.training.tests.DepartureCalendarClick</td><td><a href="#m8">departureCalendarClick_</a></td><td rowspan="1">1594066984503</td><td rowspan="1">12440</td></tr><tr class="passedeven"><td rowspan="1">com.skillassure.training.tests.DepartureTimeClick</td><td><a href="#m9">departuretime</a></td><td rowspan="1">1594067158838</td><td rowspan="1">14553</td></tr><tr class="passedodd"><td rowspan="1">com.skillassure.training.tests.Route</td><td><a href="#m10">route_</a></td><td rowspan="1">1594067121253</td><td rowspan="1">17814</td></tr><tr class="passedeven"><td rowspan="2">com.skillassure.training.tests.ScheduleFlight</td><td><a href="#m11">login</a></td><td rowspan="1">1594067024991</td><td rowspan="1">11579</td></tr><tr class="passedeven"><td><a href="#m12">signin</a></td><td rowspan="1">1594067036579</td><td rowspan="1">20879</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.skillassure.training.tests.AddFlightDetails#scheduleFlight</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.skillassure.training.tests.Data#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@mindtree.com</td><td>admin</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.skillassure.training.tests.Data.login(Data.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.skillassure.training.tests.DepartureCalendarSelect#depatureCalendarClick_</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;ui-datepicker-div&quot;]/table/tbody/tr[2]/td[1]/a&quot;}
+  (Session info: chrome=83.0.4103.116)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;DESKTOP-0TH5CHR&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:48794}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: fb7618e1414b1c452c07fc20bb5274ae
+*** Element info: {Using=xpath, value=//*[@id=&quot;ui-datepicker-div&quot;]/table/tbody/tr[2]/td[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.skillassure.training.tests.DepartureCalendarSelect.depatureCalendarClick_(DepartureCalendarSelect.java:30)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.skillassure.training.tests.Route#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@mindtree.com</td><td>admin</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.skillassure.training.tests.Data.login(Data.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.skillassure.training.tests.AddFlightDetails#scheduleFlight</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.skillassure.training.tests.ArrivalCalendarClick#ArrivalCalendarClick_</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.skillassure.training.tests.ArrivalTimeClick#ArrivalTimeClick_</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.skillassure.training.tests.ChooseFlight#scheduleFlight</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.skillassure.training.tests.CostOfClass#scheduleFlight</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.skillassure.training.tests.DepartureCalendarClick#departureCalendarClick_</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.skillassure.training.tests.DepartureTimeClick#departuretime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.skillassure.training.tests.Route#route_</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.skillassure.training.tests.ScheduleFlight#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@mindtree.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.skillassure.training.tests.ScheduleFlight#signin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

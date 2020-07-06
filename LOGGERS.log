@@ -139,3 +139,83 @@
 13:44:07.703 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
 13:44:16.716 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
 13:44:19.427 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+00:25:08.694 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+00:25:08.754 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+00:25:16.680 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+00:25:24.114 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+00:25:25.141 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+00:25:25.720 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+00:25:49.048 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+00:25:53.603 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+00:26:00.164 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+00:26:01.060 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+00:31:41.178 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+00:31:41.206 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+00:31:58.781 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+00:32:08.603 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+00:32:13.928 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+00:32:45.697 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+00:32:50.769 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+00:33:05.234 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+00:33:10.470 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+01:06:29.604 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+01:06:34.123 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+01:06:41.912 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+01:06:42.981 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+01:08:09.489 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+01:08:09.489 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+01:08:16.043 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+01:08:27.198 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+01:08:28.988 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+01:08:29.846 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+01:17:37.862 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Entering into application
+01:17:37.890 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Intializing chrome driver
+01:25:19.251 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Entering into application
+01:25:19.265 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Intializing chrome driver
+01:44:41.667 [main] INFO  com.skillassure.training.tests.AddFlightDetails - entering as admin
+01:44:41.672 [main] INFO  com.skillassure.training.tests.AddFlightDetails - Selecting the flight from dropdown
+01:44:57.065 [main] INFO  com.skillassure.training.tests.AddFlightDetails - selecting the route
+01:44:57.990 [main] INFO  com.skillassure.training.tests.AddFlightDetails - selecting the departure time
+01:44:58.456 [main] INFO  com.skillassure.training.tests.AddFlightDetails - selecting the arrival time
+01:44:58.779 [main] INFO  com.skillassure.training.tests.AddFlightDetails - adding the cost of economy
+01:44:58.911 [main] INFO  com.skillassure.training.tests.AddFlightDetails - finally adding the flight
+01:53:04.523 [main] INFO  com.skillassure.training.tests.DepartureCalendarClick - Entering into application
+01:53:04.534 [main] INFO  com.skillassure.training.tests.DepartureCalendarClick - Opening chrome driver
+01:53:16.956 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - entering as application
+01:53:16.957 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - Opening chrome driver
+01:53:21.229 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - Opening application
+01:53:32.336 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - Opening loginasadmin
+01:53:38.825 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - Clciking on username field
+01:53:38.995 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - Clicking as password
+01:53:39.083 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - Clicking on sigin
+01:53:44.166 [main] INFO  com.skillassure.training.tests.ArrivalCalendarClick - Clciking on schedule flight
+01:53:56.585 [main] DEBUG com.skillassure.training.tests.ScheduleFlight - Execution Started
+01:54:00.310 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Maximizing the window
+01:54:14.303 [main] INFO  com.skillassure.training.tests.ScheduleFlight - adding the credentials
+01:54:16.376 [main] INFO  com.skillassure.training.tests.ScheduleFlight - Clicking on schedule flight
+01:54:17.461 [main] INFO  com.skillassure.training.tests.CostOfClass - Entering the application
+01:54:17.462 [main] INFO  com.skillassure.training.tests.CostOfClass - Opening chrome driver
+01:54:37.180 [main] INFO  com.skillassure.training.tests.ChooseFlight - Entering into application
+01:54:37.180 [main] INFO  com.skillassure.training.tests.ChooseFlight - Opening chrome driver
+01:54:41.570 [main] INFO  com.skillassure.training.tests.ChooseFlight - Opening application
+01:54:44.123 [main] INFO  com.skillassure.training.tests.ChooseFlight - Clicking on username
+01:54:48.132 [main] INFO  com.skillassure.training.tests.AddFlightDetails - entering as admin
+01:54:48.132 [main] INFO  com.skillassure.training.tests.AddFlightDetails - Selecting the flight from dropdown
+01:54:58.134 [main] INFO  com.skillassure.training.tests.AddFlightDetails - selecting the route
+01:54:59.185 [main] INFO  com.skillassure.training.tests.AddFlightDetails - selecting the departure time
+01:54:59.840 [main] INFO  com.skillassure.training.tests.AddFlightDetails - selecting the arrival time
+01:55:00.154 [main] INFO  com.skillassure.training.tests.AddFlightDetails - adding the cost of economy
+01:55:00.283 [main] INFO  com.skillassure.training.tests.AddFlightDetails - finally adding the flight
+01:55:04.125 [main] INFO  com.skillassure.training.tests.ArrivalTimeClick - Entering into application
+01:55:04.126 [main] INFO  com.skillassure.training.tests.ArrivalTimeClick - Opening chrome driver
+01:55:08.430 [main] INFO  com.skillassure.training.tests.ArrivalTimeClick - Opening an application
+01:55:21.255 [main] INFO  com.skillassure.training.tests.Route - entering as admin
+01:55:21.255 [main] DEBUG com.skillassure.training.tests.Route - Execution Started
+01:55:26.647 [main] INFO  com.skillassure.training.tests.Route - Maximizing the window
+01:55:35.974 [main] INFO  com.skillassure.training.tests.Route - adding the credentials
+01:55:37.073 [main] INFO  com.skillassure.training.tests.Route - Clicking on schedule flight
+01:55:38.163 [main] INFO  com.skillassure.training.tests.Route - Choosing the route
+01:55:39.179 [main] INFO  com.skillassure.training.tests.DepartureCalendarSelect - Entering into application
+01:55:39.180 [main] INFO  com.skillassure.training.tests.DepartureCalendarSelect - Opening chrome driver
+01:55:58.839 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Entering into application
+01:55:58.840 [main] INFO  com.skillassure.training.tests.DepartureTimeClick - Intializing chrome driver

@@ -10,9 +10,12 @@ import org.testng.annotations.Test;
 
 public class DepartureCalendarSelect {
 	WebDriver driver;
+	private static Logger Log = LogManager.getLogger(DepartureCalendarSelect.class.getName());
 	@Test
 	public void depatureCalendarClick_() {
+		 Log.info("Entering into application");
 		System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
+		Log.info("Opening chrome driver");
 		driver=new ChromeDriver();
 		
 		driver.get("http://43.254.161.195:8085/happytripcrclean1");

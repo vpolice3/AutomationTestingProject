@@ -13,13 +13,15 @@ import org.testng.annotations.Test;
 //import testcases.excel;
 
 public class CostOfClass {
-	 //private static Logger Log = LogManager.getLogger(CostOfClass.class.getName());
+	 private static Logger Log = LogManager.getLogger(CostOfClass.class.getName());
 	 WebDriver driver;
 	//Data ex=new Data();
 	String expected ="1";
 	@Test
 	public void scheduleFlight(){
+		Log.info("Entering the application");
 		System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
+		Log.info("Opening chrome driver");
 		driver=new ChromeDriver();
 		
 		driver.get("http://43.254.161.195:8085/happytripcrclean1");

@@ -16,13 +16,16 @@ import org.testng.annotations.Test;
 
 public class ChooseFlight{
 	WebDriver driver;
-	 
+	private static Logger Log = LogManager.getLogger(ChooseFlight.class.getName());
 	 @Test
 	public void scheduleFlight() {
+		 Log.info("Entering into application");
 		System.setProperty("webdriver.chrome.driver", "E:\\Test\\AutomationTestingProject\\src\\test\\resources\\Chrome\\chromedriver.exe");
+		Log.info("Opening chrome driver");
 		driver=new ChromeDriver();
-		
+		Log.info("Opening application");
 		driver.get("http://43.254.161.195:8085/happytripcrclean1");
+		Log.info("Clicking on username");
 		driver.findElement(By.partialLinkText("in as")).click();
 		driver.findElement(By.id("username")).sendKeys("admin@mindtree.com");
 		driver.findElement(By.id("password")).sendKeys("admin");
